@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # singular deploy job since we're just deploying
+  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -45,7 +45,7 @@ jobs: 2:
 
 is:issue state:open parent-issue:whartondylan/skills-introduction-to-github-#2 
 
-  # deploy and check
+  # Second deploy and check-steps
   deploy:
     environment:
       name: github-pages
